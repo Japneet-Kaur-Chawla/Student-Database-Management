@@ -2,8 +2,7 @@
 
 ## 📌 About the Project
 This project is a lightweight, fully relational Student Database Management System designed using standard Oracle SQL. 
-
-Rather than relying on heavy PL/SQL components like Triggers or Views, this architecture focuses strictly on core database fundamentals: robust table design, strict data integrity constraints, and dynamic data retrieval using advanced `SELECT` queries. It models a real-world academic environment, handling everything from student enrollments to attendance tracking and fee management.
+It models a real-world academic environment, handling everything from student enrollments to attendance tracking and fee management.
 
 ## 🏗️ Database Schema Overview
 The relational database consists of 8 interconnected tables:
