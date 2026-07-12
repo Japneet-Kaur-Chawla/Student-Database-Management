@@ -93,7 +93,7 @@ COMMIT;
 -- STEP 4: QUERIES (Run these after you insert your data)
 -- =====================================================================
 
--- 1. Student Report Card (Calculates Grade on the fly instead of a trigger)
+-- 1. Student Report Card 
 SELECT 
     s.full_name AS student_name, 
     c.course_name, 
@@ -111,7 +111,7 @@ JOIN students s    ON e.student_id = s.student_id
 JOIN courses c     ON e.course_id = c.course_id
 JOIN semesters sem ON e.semester_id = sem.semester_id;
 
--- 2. Outstanding Fee Balances (Calculates Status on the fly instead of a trigger)
+-- 2. Outstanding Fee Balances 
 SELECT 
     s.full_name AS student_name, 
     sem.semester_name, 
@@ -145,5 +145,5 @@ SELECT
     i.full_name AS instructor_name, 
     COUNT(c.course_id) AS courses_taught
 FROM instructors i
-JOIN courses c ON c.instructor_id = i.instructor_id
+LEFT JOIN courses c ON c.instructor_id = i.instructor_id
 GROUP BY i.full_name;
