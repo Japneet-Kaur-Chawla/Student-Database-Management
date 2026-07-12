@@ -1,4 +1,4 @@
-# Student Database Management System (Pure SQL)
+# Student Database Management System
 
 ## 📌 About the Project
 This project is a lightweight, fully relational Student Database Management System designed using standard Oracle SQL. 
