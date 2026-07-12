@@ -24,7 +24,7 @@ The relational database consists of 8 interconnected tables:
 
 ---
 
-## 🛠️ How to Run the Project (For Interviewers)
+## 🛠️ How to Run the Project 
 
 This script was written for **Oracle Database 12c+**, utilizing `IDENTITY` columns for auto-incrementing primary keys. You can run this in Oracle SQL Developer, Oracle Live SQL (web-based), or any compatible SQL client.
 
